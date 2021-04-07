@@ -93,3 +93,96 @@
 2021-04-07 11:29:05 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6a771469: (connection evicted)
 2021-04-07 11:29:05 [RMI TCP Connection(19)-127.0.0.1] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
 2021-04-07 11:29:05 [RMI TCP Connection(19)-127.0.0.1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-07 11:42:01 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-04-07 11:42:01 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-07 11:42:31 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-04-07 11:42:31 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-07 11:43:01 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-04-07 11:43:01 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-07 11:43:31 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-04-07 11:43:31 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-07 11:44:01 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-04-07 11:44:01 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-07 11:44:31 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-04-07 11:44:31 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] o.s.web.servlet.DispatcherServlet - GET "/board", parameters={}
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.api.board.controller.BoardController#getBoardList()
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [INFO ] c.a.board.controller.BoardController - ===== ===== ===== logging.level.com.api.board.controller - Logger Level ===== ===== =====
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] c.a.board.controller.BoardController - Logger Level - [DEBUG]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [INFO ] c.a.board.controller.BoardController - Logger Level - [INFO]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [WARN ] c.a.board.controller.BoardController - Logger Level - [WARN]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [ERROR] c.a.board.controller.BoardController - Logger Level - [ERROR]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [INFO ] c.a.board.controller.BoardController - ===== ===== ===== logging.level.com.api.board.controller - Logger Level ===== ===== =====
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [INFO ] com.api.board.service.BoardService - ===== ===== ===== logging.level.com.api.board - Logger Level ===== ===== =====
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] com.api.board.service.BoardService - Logger Level - [DEBUG]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [INFO ] com.api.board.service.BoardService - Logger Level - [INFO]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [WARN ] com.api.board.service.BoardService - Logger Level - [WARN]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [ERROR] com.api.board.service.BoardService - Logger Level - [ERROR]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [INFO ] com.api.board.service.BoardService - ===== ===== ===== logging.level.com.api.board - Logger Level ===== ===== =====
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1692f342] was not registered for synchronization because synchronization is not active
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@408227808 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@1c6a9832] will not be managed by Spring
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] c.a.b.m.BoardMapper.getBoardList - ==>  Preparing: SELECT * FROM ( SELECT BOARD_SEQ , BOARD_RE_REF , BOARD_RE_LEV , BOARD_RE_SEQ , BOARD_WRITER , BOARD_SUBJECT , BOARD_CONTENT , BOARD_HITS , DEL_YN , INS_USER_ID , CAST( DATE_FORMAT( INS_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE , UPD_USER_ID , CAST( DATE_FORMAT( UPD_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE FROM GUIDB.TB_BOARD ORDER BY BOARD_RE_REF DESC, BOARD_RE_SEQ ASC ) T1 
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] c.a.b.m.BoardMapper.getBoardList - ==> Parameters: 
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT *
+        FROM ( 
+                SELECT BOARD_SEQ 
+                     , BOARD_RE_REF 
+                     , BOARD_RE_LEV 
+                     , BOARD_RE_SEQ 
+                     , BOARD_WRITER 
+                     , BOARD_SUBJECT 
+                     , BOARD_CONTENT 
+                     , BOARD_HITS
+                     , DEL_YN 
+                     , INS_USER_ID
+                     , CAST( DATE_FORMAT( INS_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE
+                     , UPD_USER_ID
+                     , CAST( DATE_FORMAT( UPD_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE  
+               FROM GUIDB.TB_BOARD
+               ORDER BY BOARD_RE_REF DESC, BOARD_RE_SEQ ASC
+              ) T1
+ {executed in 1 msec}
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [INFO ] jdbc.resultsettable - 
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|---------|
+|board_seq |board_re_ref |board_re_lev |board_re_seq |board_writer |board_subject |board_content |board_hits |del_yn |ins_user_id |ins_date            |upd_user_id |upd_date |
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|---------|
+|1         |0            |0            |0            |게시글 작성자1     |게시글 제목1       |게시글 내용1       |0          |N      |TEST01      |2021-04-07 10:39:04 |null        |null     |
+|2         |0            |0            |0            |게시글 작성자1     |게시글 제목1       |게시글 내용1       |0          |N      |TEST01      |2021-04-07 10:39:05 |null        |null     |
+|3         |0            |0            |0            |게시글 작성자1     |게시글 제목1       |게시글 내용1       |0          |N      |TEST01      |2021-04-07 10:39:06 |null        |null     |
+|4         |0            |0            |0            |게시글 작성자1     |게시글 제목1       |게시글 내용1       |0          |N      |TEST01      |2021-04-07 10:39:06 |null        |null     |
+|5         |0            |0            |0            |게시글 작성자1     |게시글 제목1       |게시글 내용1       |0          |N      |TEST01      |2021-04-07 10:39:07 |null        |null     |
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|---------|
+
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] c.a.b.m.BoardMapper.getBoardList - <==      Total: 5
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1692f342]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[com.api.board.domain.Board@577907f9, com.api.board.domain.Board@2e655c6, com.api.board.domain.Board (truncated)...]
+2021-04-07 11:44:52 [http-nio-8585-exec-5] [DEBUG] o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2021-04-07 11:45:01 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-04-07 11:45:01 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-07 11:45:31 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-04-07 11:45:31 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-07 11:46:01 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-04-07 11:46:01 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [INFO ] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [DEBUG] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ce97ee5, started on Wed Apr 07 11:30:38 KST 2021
+2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [DEBUG] o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [DEBUG] o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@1c6a9832: (connection evicted)
+2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@2f2cf546: (connection evicted)
+2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@4ecda73f: (connection evicted)
+2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@6b7a830c: (connection evicted)
+2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@3520398a: (connection evicted)
+2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7dee6cad: (connection evicted)
+2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@5eb9d870: (connection evicted)
+2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@61e45248: (connection evicted)
+2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@55bcdb97: (connection evicted)
+2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@5bb94e89: (connection evicted)
+2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
