@@ -1,0 +1,4 @@
+2021-04-07 11:28:42 [http-nio-8585-exec-6] [ERROR] c.a.board.controller.BoardController - Logger Level - [ERROR]
+2021-04-07 11:28:42 [http-nio-8585-exec-6] [ERROR] com.api.board.service.BoardService - Logger Level - [ERROR]
+2021-04-07 11:28:54 [http-nio-8585-exec-7] [ERROR] c.a.board.controller.BoardController - Logger Level - [ERROR]
+2021-04-07 11:28:54 [http-nio-8585-exec-7] [ERROR] com.api.board.service.BoardService - Logger Level - [ERROR]
