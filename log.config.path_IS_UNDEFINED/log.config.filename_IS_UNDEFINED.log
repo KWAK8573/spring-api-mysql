@@ -186,3 +186,8 @@
 2021-04-07 11:46:31 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@5bb94e89: (connection evicted)
 2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
 2021-04-07 11:46:31 [RMI TCP Connection(25)-127.0.0.1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-07 15:03:18 [RMI TCP Connection(20)-127.0.0.1] [INFO ] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-04-07 15:03:18 [RMI TCP Connection(20)-127.0.0.1] [DEBUG] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b5a12ae, started on Wed Apr 07 14:52:37 KST 2021
+2021-04-07 15:03:18 [RMI TCP Connection(20)-127.0.0.1] [DEBUG] o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2021-04-07 15:03:18 [RMI TCP Connection(20)-127.0.0.1] [DEBUG] o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2021-04-07 15:03:18 [RMI TCP Connection(20)-127.0.0.1] [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
